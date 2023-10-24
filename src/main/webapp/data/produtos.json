@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "nome": "Coqueteleira Max Titanium",
+        "descricao": "Essa coqueteleira é muito boa, porém nem tanto",
+        "valor": 65.00
+    },
+    {
+        "id": 2,
+        "nome": "Creatina Hardcore",
+        "descricao": "Essa creatina é Over Power",
+        "valor": 120.00
+    },
+   {
+        "id": 3,
+        "nome": "Durabolin 10ml",
+        "descricao": "Este veneno mata.",
+        "valor": 120.00
+    } ,
+   {
+        "id": 4,
+        "nome": "Trembolona",
+        "descricao": "Também mata",
+        "valor": 120.00
+    } ,
+   {
+        "id": 5,
+        "nome": "Creatina ExtremeUP",
+        "descricao": "Descrição da creatina",
+        "valor": 180.00
+    },
+   {
+        "id": 6,
+        "nome": "Luvas de treino",
+        "descricao": "Para frangos.",
+        "valor": 25.00
+    },
+   {
+        "id": 7,
+        "nome": "Corda de treino",
+        "descricao": "Excelente exercício.",
+        "valor": 20.00
+    },
+   {
+        "id": 8,
+        "nome": "Cinta para treino",
+        "descricao": "Parece confortável.",
+        "valor": 1120.00
+    },
+    {
+        "id": 9,
+        "nome": "Produto de teste",
+        "descricao": "teste do produto de teste.",
+        "valor": 112.00
+    }
+]

@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ProdutoSVL</servlet-name>
+  	<display-name>ProdutoSVL</display-name>
+  	<description></description>
+  	<servlet-class>br.com.seusuco.web.ProdutoSVL</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>produtosInfoServlet</servlet-name>
+  	<display-name>produtosInfoServlet</display-name>
+  	<description></description>
+  	<servlet-class>ProdutosInfoServlet.produtosInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>criarProdutosServlet</servlet-name>
+  	<display-name>criarProdutosServlet</display-name>
+  	<description></description>
+  	<servlet-class>CriarProdutosServlet.criarProdutosServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>produtoDAO</servlet-name>
+  	<display-name>produtoDAO</display-name>
+  	<description></description>
+  	<servlet-class>ProdutosDAO.produtoDAO</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>produtosDAO</servlet-name>
+  	<display-name>produtosDAO</display-name>
+  	<description></description>
+  	<servlet-class>ProdutosDAO.produtosDAO</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ProdutoSVL</servlet-name>
+  	<url-pattern>/ProdutoSVL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>produtosInfoServlet</servlet-name>
+  	<url-pattern>/produtosInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>criarProdutosServlet</servlet-name>
+  	<url-pattern>/criarProdutosServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>produtoDAO</servlet-name>
+  	<url-pattern>/produtoDAO</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>produtosDAO</servlet-name>
+  	<url-pattern>/produtosDAO</url-pattern>
+  </servlet-mapping>
+
+</web-app>
